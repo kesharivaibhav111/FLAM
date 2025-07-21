@@ -3,7 +3,7 @@ import './Components/CallenderApp.css'
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <CallenderApp />
     </div>
   )

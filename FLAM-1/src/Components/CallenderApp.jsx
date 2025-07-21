@@ -13,13 +13,13 @@ const CallenderApp = () => {
             </div>
         </div>
         <div className="weekdays">
-            <span>Sun</span>
-            <span>Mon</span>
-            <span>Tue</span>
-            <span>Wed</span>
-            <span>Thu</span>
-            <span>Fri</span>
-            <span>Sat</span>
+            <span>Sun </span>
+            <span>Mon </span>
+            <span>Tue </span>
+            <span>Wed </span>
+            <span>Thu </span>
+            <span>Fri </span>
+            <span>Sat </span>
         </div>
         <div className="days">
             <span>1</span>
@@ -50,7 +50,7 @@ const CallenderApp = () => {
             <span>26</span>
             <span>27</span>
             <span>28</span>
-            <span>29</span>
+            <span className="current-day">29</span>
             <span>30</span>
             <span>31</span>
         </div>
